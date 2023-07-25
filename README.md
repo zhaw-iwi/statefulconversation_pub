@@ -1,7 +1,7 @@
 # Stateful Prompt-Chaining
 
 <picture>
- <img alt="a close up of a person holding a cell phone" src=".readme/pradamas-gifarry-889Qh5HJj4I-unsplash.jpg">
+ <img alt="a close up of a person holding a cell phone" src="readme/pradamas-gifarry-889Qh5HJj4I-unsplash.jpg">
 </picture>
 
 **Note:** The repository with the code won't be public until the first version (planned for the end of August 2023) releases. Contact desa[at]zhaw.ch for questions or further details. 
