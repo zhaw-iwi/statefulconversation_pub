@@ -18,18 +18,21 @@ Stateful Prompt-Chaining is a framework developed to improve the capabilities of
 
 ## Objective
 
-Stateful prompt chaining introduces a model-driven approach to chaining, branching, looping and merging multiple LLM prompts. This enables the design, implementation and validation of complex LLM applications with precise and testable prompts. Furthermore, additional components such as APIs, databases, knowledge bases or generative image models can be embedded to extend conversational capabilities. This setup simplifies the implementation of complex NLP tasks, such as long-term therapy support for chronic diseases, counselling of young people with hearing disabilities, providing learning aids for school subjects or equalising natural language texts.
+Stateful prompt chaining introduces a model-driven approach to chaining, branching, looping and merging multiple LLM prompts. This enables the design, implementation and validation of complex LLM applications with precise and testable prompts. Furthermore, additional components such as APIs, databases, knowledge bases or generative image models can be embedded to extend conversational capabilities. This setup simplifies the implementation of complex NLP tasks, such as long-term therapy support for chronic diseases, counselling of young people with hearing disabilities, providing learning aids for school subjects or de-biasing natural language texts.
 
 ## Example Application
 
 In what follows we present an example conversation between a user and conversational agent. The conversation is annotated with references to its states and partial information related to state transitions including triggers, guards and actions.
 
-#### Pseudo State: Start
+### Pseudo State: Start
 
-#### State: Initialization
+### State: Initialization
 Coach: "Hello, it's great to meet with you today. I'm here to support you on your journey towards improved well-being. What's your name?"
+
 Client: "Hello, my name is John."
+
 Coach: "Nice to meet you, John.
+
 **Trigger: The client shares their name.**
 
 #### State: Connection Building
