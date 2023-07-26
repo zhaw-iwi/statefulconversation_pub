@@ -23,7 +23,7 @@ Stateful prompt chaining introduces a model-driven approach to chaining, branchi
 
 ## Example Application
 
-In what follows we present an example conversation between a user and conversational agent. The conversation is annotated with references to its states and partial information related to state transitions including triggers, guards and actions.
+In what follows we present an example conversation between a user and conversational agent. The conversation is annotated with references to its states and partial information related to state transitions.
 
 ### Pseudo State: Start
 
@@ -34,7 +34,7 @@ Client: "Hello, my name is John."
 
 Coach: "Nice to meet you, John.
 
-**Trigger: The client shares their name.**
+**Transition: The client shares their name.**
 
 ### State: Connection Building
 Coach: "I believe understanding personal context is crucial in our journey together. If you're comfortable sharing, could you tell me a bit about your daily routine or something you enjoy doing in your spare time?"
@@ -43,7 +43,7 @@ Client: "Well, I'm a huge fan of cycling. I usually go for a ride early in the m
 
 Coach: "That's wonderful, John. Cycling is a great way to keep both mind and body healthy. Perhaps we can also consider incorporating elements of your love for cycling into our plan."
 
-**Trigger: The client shares a personal interest or detail about their daily life.**
+**Transition: The client shares a personal interest or detail about their daily life.**
 
 ### State: Well-being Assessment
 Coach: "Could you tell me about how you're currently feeling about your overall well-being?"
@@ -52,7 +52,7 @@ Client: "Well, I'm feeling a bit stressed lately, and I don't think I'm eating a
 
 Coach: "Thank you for sharing, John. It sounds like stress and nutrition are two areas we could focus on."
 
-**Trigger: The client provides information regarding their well-being.**
+**Transition: The client provides information regarding their well-being.**
 
 ### Pseudo State: Decision Node <sup>Branching</sup>
 **Decision: Does the information contain at least one positive item?**
@@ -80,7 +80,7 @@ Client: "No, these would be the most pressing ones."
 
 Coach: "Thanks for sharing, John. It's clear that work stress and poor eating habits are areas we can work on."
 
-**Trigger: The client has no more concerns.**
+**Transition: The client has no more concerns.**
 
 ### Pseudo State: Decision Node (1/3) <sup>Looping</sup>
 **Decision: Are there any unprocessed items in the list of pain points?**
@@ -98,7 +98,7 @@ Coach: "Mindfulness exercises can be really effective in managing stress. Would 
 
 Client: "Yes, I think I would like to try that."
 
-**Trigger: The client shows willingness to a suggestion.**
+**Transition: The client shows willingness to a suggestion.**
 
 ### State: Agreement (1/2)
 Coach: "Great, let's start with 10 minutes of guided meditation in the morning."
@@ -113,7 +113,7 @@ Client: "Monday, Thursday, and Sunday."
 
 Coach: "Ok. So that's settled."
 
-**Trigger: A smart goal is agreed on.**
+**Transition: A smart goal is agreed on.**
 
 ### Pseudo State: Decision Node (2/3) <sup>Looping Cont.</sup>
 
@@ -141,7 +141,7 @@ Coach: "Fantastic, John. So, this week, you'll try 10 minutes of guided meditati
 Coach: "Let's check in again next week to see how these changes are affecting your well-being. Do you have any questions or concerns?"
 
 Client: "No, I think I'm ready to give it a try. Thank you."
-**Trigger: The client confirms no further assistance is needed.**
+**Transition: The client confirms no further assistance is needed.**
 
 ### Pseudo State: Final
 
