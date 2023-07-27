@@ -13,7 +13,7 @@
 - [Availability](#availability)
 
 
-## Summary
+## Goal
 
 Stateful Prompt Chaining is a framework developed to improve the capabilities of large language models (LLMs) in handling complex tasks where prompt dependencies and multi-layered contexts play a role. The development of LLM applications is supported by breaking down complex tasks into smaller, more precise and more testable subtasks. Using this framework, it takes less time and effort to experiment with variations of prompts, facilitating evidence-based feasibility and proof-of-value studies.
 
