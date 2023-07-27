@@ -133,7 +133,7 @@ Client: "Yes, I have all of that."
 
 Coach: "Perfect. You shall have an oatmeal for breakfast tomorrow."
 
-### Pseudo State: Decision Node (1/3) <sup>Looping Exit</sup>
+### Pseudo State: Decision Node (3/3) <sup>Looping Exit</sup>
 
 ### State: Completion <sup>Merging</sup>
 Coach: "Fantastic, John. So, this week, you'll try 10 minutes of guided meditation on Monday, Thursday, and Sunday morning. And you will have breakfast tomorrow."
