@@ -1,4 +1,4 @@
-# Stateful Prompt-Chaining
+# Stateful Prompt Chaining
 
 <picture>
  <img alt="a close up of a person holding a cell phone" src="readme/pradamas-gifarry-889Qh5HJj4I-unsplash.jpg">
@@ -13,17 +13,17 @@
 - [Availability](#availability)
 
 
-## Goal
+## Summary
 
-Stateful Prompt-Chaining is a framework developed to improve the capabilities of large language models (LLMs) in handling complex tasks where prompt dependencies and multi-layered contexts play a role. The idea is to support the development of LLM applications by breaking down complex tasks into smaller, more precise and more testable subtasks. It requires less time and effort to experiment with variations of prompts, thus facilitating evidence-based feasibility and proof-of-value studies.
+Stateful Prompt Chaining is a framework developed to improve the capabilities of large language models (LLMs) in handling complex tasks where prompt dependencies and multi-layered contexts play a role. The development of LLM applications is supported by breaking down complex tasks into smaller, more precise and more testable subtasks. Using this framework, it takes less time and effort to experiment with variations of prompts, facilitating evidence-based feasibility and proof-of-value studies.
 
 ## Objective
 
-Stateful prompt chaining introduces a model-driven approach to chaining, branching, looping and merging multiple LLM prompts. This enables the design, implementation and validation of complex LLM applications with precise and testable prompts. Furthermore, additional components such as APIs, databases, knowledge bases or generative image models can be embedded to extend conversational capabilities. This setup simplifies the implementation of complex NLP tasks, such as long-term therapy support for chronic diseases, counselling of young people with hearing disabilities, providing learning aids for school subjects or de-biasing natural language texts.
+Stateful Prompt Chaining introduces a model-driven approach to chaining, branching, looping and merging multiple LLM prompts. This enables the design, implementation and validation of complex LLM applications with precise and testable prompts. Furthermore, additional components such as APIs, databases, knowledge bases or generative image models can be embedded to extend conversational capabilities. This setup simplifies the implementation of complex NLP tasks, such as long-term therapy support for chronic diseases, counselling of young people with hearing disabilities, providing learning aids for school subjects or de-biasing natural language texts.
 
 ## Example Application
 
-In what follows we present an example conversation between a user (client) and conversational agent (coach). The conversation is annotated with references to its conversational states and partial information related to state transitions.
+In what follows we present an example conversation between a user (client) and conversational agent (coach). The conversation is annotated with references to its conversational states and partial information related to state transitions. States and transitions are the starting point for the use of Stateful Prompt Chaining.
 
 ### Pseudo State: Start
 
