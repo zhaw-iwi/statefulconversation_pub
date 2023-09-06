@@ -15,11 +15,11 @@
 
 ## Goal
 
-Stateful Prompt Chaining is a framework developed to improve the capabilities of large language models (LLMs) in handling complex tasks where prompt dependencies and multi-layered contexts play a role. The development of LLM applications is supported by breaking down complex tasks into smaller, more precise and more testable subtasks. Using this framework, it takes less time and effort to experiment with variations of prompts, facilitating evidence-based feasibility and proof-of-value studies.
+Stateful Prompt Chaining is a framework developed to improve the capabilities of language models (LMs, e.g. GPT, Llama) in handling complex tasks where prompt dependencies and multi-layered contexts play a role. The development of LMs applications is supported by breaking down complex tasks into smaller, more precise and more testable subtasks. Using this framework, it takes less time and effort to experiment with variations of prompts, facilitating evidence-based feasibility and proof-of-value studies.
 
 ## Objective
 
-Stateful Prompt Chaining introduces a model-driven approach to chaining, branching, looping and merging multiple LLM prompts. This enables the design, implementation and validation of complex LLM applications with precise and testable prompts. Furthermore, additional components such as APIs, databases, knowledge bases or generative image models can be embedded to extend conversational capabilities. This setup simplifies the implementation of complex NLP tasks, such as long-term therapy support for chronic diseases, counselling of young people with hearing disabilities, providing learning aids for school subjects or de-biasing natural language texts.
+Stateful Prompt Chaining introduces a model-driven approach to chaining, branching, looping and merging multiple LM prompts. This enables the design, implementation and validation of complex LM applications with precise and testable prompts. Furthermore, additional components such as APIs, databases, knowledge bases or generative image models can be embedded to extend conversational capabilities. This setup simplifies the implementation of complex NLP tasks, such as long-term therapy support for chronic diseases, counselling of young people with hearing disabilities, providing learning aids for school subjects or de-biasing natural language texts.
 
 ## Example Application
 
