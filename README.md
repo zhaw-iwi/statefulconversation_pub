@@ -9,6 +9,7 @@
 - [Objective](#objective)
 - [Example Application](#example-application)
 - [Availability](#availability)
+- [Getting Started](#getting-started)
 
 
 ## Goal
@@ -146,3 +147,37 @@ Client: "No, I think I'm ready to give it a try. Thank you."
 ## Availability
 
 The framework is currently being development as part of multiple ongoing projects and thus not available publicly yet. In this repository, we occasionally release a public version. Contact desa[at]zhaw.ch for more information or dedicated access to more recent versions.
+
+## Getting Started
+
+#### Requirements
+- JDK?
+    - javac --version
+    - https://dev.java/download/
+- JAVA_HOME?
+- MySQL?
+    - MySQL Community Server
+    - Remember [PASSWORD]
+    - MySQL Workbench (check connection to server)
+- VSC?
+    - Extension Pack for Java
+    - Spring Boot Extension Pack
+
+#### Set Up
+- Create Database [DB_NAME]
+- src/main/ressources/
+    - copy both properties templates, rename them (remove .template)
+    - application.properties: set [DB_NAME] in connection url
+    - application.properties: set [PASSWORD]
+    - openai.properties: set openai api key
+- Definition of Done?
+    - If you can build it (e.g., Maven:statefulconversation:Plugins:spring-boot:run)
+
+#### Interaction
+- Run an existing unit test in src/test/java/.../bots/ (e.g., FlightBookingBot)
+- OR create your own unit test in src/test/java/.../bots/
+    - Unit test creates Interaction and saves it to Database
+    - Run your own unit test
+- Start the back-end
+- Find UUID of agent: http://localhost:8080/all
+- Access bot using: http://localhost:8080/?UUID
