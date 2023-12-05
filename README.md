@@ -1,7 +1,7 @@
 # Stateful Prompt Chaining
 
 <picture>
- <img alt="a close up of a person holding a cell phone" src="readme/pradamas-gifarry-889Qh5HJj4I-unsplash.jpg">
+ <img alt="a close up of a person holding a cell phone" src=".readme/pradamas-gifarry-889Qh5HJj4I-unsplash.jpg">
 </picture>
 
 ## Table of Contents
