@@ -147,4 +147,4 @@ Client: "No, I think I'm ready to give it a try. Thank you."
 
 ## Availability
 
-The framework is currently being development as part of multiple ongoing projects and thus not available publicly yet. We will release a public version once the underlying concepts will be published. Contact desa[at]zhaw.ch for information or dedicated access.
+The framework is currently being development as part of multiple ongoing projects and thus not available publicly yet. In this repository, we occasionally release a public version. Contact desa[at]zhaw.ch for more information or dedicated access to more recent versions.
