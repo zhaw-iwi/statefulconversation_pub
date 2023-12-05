@@ -4,8 +4,6 @@
  <img alt="a close up of a person holding a cell phone" src="readme/pradamas-gifarry-889Qh5HJj4I-unsplash.jpg">
 </picture>
 
-**Note:** The framework is currently being development as part of multiple ongoing projects and thus not available publicly yet. We will release a public version once the underlying concepts will be published. Contact desa[at]zhaw.ch for information or dedicated access. 
-
 ## Table of Contents
 - [Goal](#goal)
 - [Objective](#objective)
@@ -23,7 +21,7 @@ Stateful Prompt Chaining introduces a model-driven approach to chaining, branchi
 
 ## Example Application
 
-In what follows we present an example conversation between a user (client) and conversational agent (coach). The conversation is annotated with references to its conversational states and partial information related to state transitions. States and transitions are the starting point for the use of Stateful Prompt Chaining.
+In what follows we present an example conversation between a user (client) and conversational agent (coach). The conversation is annotated with references to its conversational states and partial information related to state transitions. States and transitions are the fundaments of Stateful Prompt Chaining.
 
 ### Pseudo State: Start
 
