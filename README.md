@@ -22,7 +22,7 @@ Stateful Prompt Chaining introduces a model-driven approach to chaining, branchi
 
 ## Example Application
 
-In what follows we present an example conversation between a user (client) and conversational agent (coach). The conversation is annotated with references to its conversational states and partial information related to state transitions. States and transitions are the fundaments of Stateful Prompt Chaining.
+In what follows we present our vision of an example conversation between a user (client) and conversational agent (coach). The conversation is annotated with references to its conversational states and partial information related to state transitions. States and transitions are the fundaments of Stateful Prompt Chaining.
 
 ### Pseudo State: Start
 
