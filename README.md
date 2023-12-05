@@ -180,4 +180,4 @@ The framework is currently being development as part of multiple ongoing project
     - Run your own unit test
 - Start the back-end
 - Find UUID of agent: http://localhost:8080/all
-- Access bot using: http://localhost:8080/?UUID
+- Access bot using: http://localhost:8080/?[UUID]
